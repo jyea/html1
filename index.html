@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .column {
+            float: left;
+            width: 33.33%;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="test.html#bottom" target="_blank">站内跳转</a>
+    <br>
+
+    <div class="column">
+
+        <h1>Numeric input</h1>
+        <input id="num1" type="number" value="5" min="0" max="100">
+
+        <h3>Range input</h3>
+        <input id="range1" type="range" value="80" min="0" max="100">
+
+        <h3>Text input</h3>
+        First name:<br>
+        <input id="txt1" type="text"><br>
+        Last name:<br>
+        <input id="txt2" type="text">
+
+    </div>
+    <div class="column">
+
+        <h3>Text area</h3>
+        <textarea id="txt3"></textarea>
+
+        <h3>Radio Buttons</h3>
+        <input id="rad1" type="radio" name="gender" value="male" checked=""> Male<br>
+        <input id="rad2" type="radio" name="gender" value="female"> Female<br>
+
+        <h3>Check boxes</h3>
+        <input id="check1" type="checkbox" name="vehicle" value="Bike">
+        I have a bike<br>
+        <input id="check2" type="checkbox" name="vehicle" value="Car">
+        I have a car<br>
+        <input id="rad23" type="radio" name="age" value="1" checked=""> 1<br>
+        <input id="rad24" type="radio" name="age" value="2"> 2<br>
+    </div>
+    <div class="column">
+
+        <h3>Dropdown list</h3>
+        <select id="sel1">
+            <option value="volvo">Volvo</option>
+            <option value="suzuki">Suzuki</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+
+        <h3>Buttons</h3>
+        <input id="btn1" type="button" value="Click Me!">
+
+    </div>
+</body>
+
+</html>
